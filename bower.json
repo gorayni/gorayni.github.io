@@ -1,0 +1,21 @@
+{
+  "name": "gorayni.github.io",
+  "authors": [
+    "Alejandro Cartas <gorayni@gmail.com>"
+  ],
+  "description": "Personal Website",
+  "main": "",
+  "license": "MIT",
+  "homepage": "gorayni.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
+  }
+}
