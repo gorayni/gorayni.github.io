@@ -17,5 +17,12 @@
   "dependencies": {
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1"
+  },
+  "install": {
+    "path": "build",
+    "sources": {
+        "bootstrap": ["public/components/bootstrap/dist/**"],
+        "jquery": ["public/components/jquery/dist/**"]
+    }
   }
 }
