@@ -5,6 +5,9 @@ date:   2015-05-24 19:05:15
 categories: jekyll update
 ---
 
+Resumen {#sec:resumen}
+-------
+
 El objetivo de este ensayo es dar una pequeña introducción a la
 Inteligencia Artificial. Trata de presentarla como un trabajo colectivo
 humano en el que existen diversas posturas y críticas. También explica
@@ -70,15 +73,18 @@ gran mayoría, parciales.
 El debate dentro y fuera de la Inteligencia Artificial
 ======================================================
 
-<span>0.5</span>
-
-*Fragmento de la parábola de los ciegos y el elefante*
-
-
-*Udana 68-69*
-
-<span>0.4</span> ![image](images/1345549624_spiloo-1.eps)
-
+<div>
+<table>
+<thead>
+  <tr>
+    <th width="50%"><p><i>Justamente así son estos predicadores y estudiosos que sostienen diversos puntos de vista de manera ciega y parcial... En su ignorancia son pendencieros y discutidores por naturaleza, cada uno sosteniendo que la realidad es así y así.</i></p>
+    <p><i>Fragmento de la parábola de los ciegos y el elefante</i></p>
+    <p><i>Udana 68-69</i></p></th>
+    <th> <img src="/assets/posts/pequeno/1345549624_spiloo-1.jpg"> </th>
+  </tr>
+</thead>
+</table>
+</div>
 
 Existen opiniones divergentes dentro y fuera de la Inteligencia
 Artificial sobre sus objetivos, su enfoque y los métodos logrados hasta
@@ -161,17 +167,11 @@ empleo@minskyInterview.
 El truco del conejo en el sombrero o las críticas a la IA {#sec:truco}
 ---------------------------------------------------------
 
-<span>0.4</span>
-
-<span>0.5</span>
-
-*Ted Arroway a su hija*
-
-
-*Cita de la película Contact*
-
-
-
+<div style="text-align: right">
+<p>Pequeños pasos, Ellie, pequeños pasos.</p>
+<p>Ted Arroway a su hija</p>
+<p>Cita de la película Contact</p>
+</div>
 
 Existe un gran asombro en las personas cuando ven trucos de magia
 realmente excepcionales, pero usualmente este asombro se desvanece
@@ -202,11 +202,6 @@ yo sé que no tiene nada que ver con la inteligencia. Y yo no sé por qué
 no hay más gente de esta manera”*. Actualmente, él sigue investigando
 temas de las ciencias cognitivas y vive autoexiliado de conferencias
 académicas de IA.
-
-
-![Línea de tiempo de la historia de la Inteligencia Artificial. Basado
-en @Russell:2003:AIM:773294.<span
-data-label="fig:lineaTiempo"></span>](images/lineaTiempoAI.eps)
 
 Al mismo tiempo que es cierta esta crítica, también se puede ver a la
 inteligencia desde una óptica menos antropomórfica. En uno de los libros
@@ -248,6 +243,17 @@ plano utilizando argumentos y demostraciones matemáticas de lo que se
 sabía en ese tiempo. Metafóricamente hablando, demostraron que no se
 podía entrar a una casa por la puerta principal, aunque tiempo después
 alguien encontró la entrada por la puerta trasera.
+
+<div>
+<table>
+  <tr>
+    <th> <img src="/assets/posts/pequeno/lineadetiempo.jpg"> </th>
+  </tr>
+  <tr>
+    <th style="text-align: center">Figura 1: Línea de tiempo de la historia de la Inteligencia Artificial. Basado en [22].</th>
+  </tr>
+</table>
+</div>
 
 Respecto a esta cuestión, es preciso indicar que la ciencia es una tarea
 competitiva en la que cada proyecto busca financiamiento de muchas
@@ -293,10 +299,6 @@ tecnología empresarial de hoy y son conocidos como reglas de negocios.
 Además, hay modelos que años atrás no pudieron llevarse a cabo por la
 poca capacidad instrumental en ese momento, pero que ahora son retomados
 con gran éxito.
-
-![Rotación virtual de un rostro y creación de una representación más
-robusta. Imagen original de Facebook.<span
-data-label="fig:deepFace"></span>](images/DeepFace.eps)
 
 El aprendizaje de máquina
 -------------------------
@@ -349,6 +351,17 @@ fig.
 [fig:deepFace
 ].
 
+<div>
+<table>
+  <tr>
+    <th> <img src="/assets/posts/pequeno/DeepFace.jpg"> </th>
+  </tr>
+  <tr>
+    <th style="text-align: center">Figura 2: Rotación virtual de un rostro y creación de una representación más robusta. Imagen original de Facebook.</th>
+  </tr>
+</table>
+</div>
+
 Es preciso mencionar que hay otros dos tipos de aprendizaje de máquina:
 el no supervisado y por refuerzo. En el aprendizaje no supervisado se
 desconocen las clases de antemano y se buscan a partir de los datos de
@@ -362,11 +375,6 @@ tiene metas claras y castigos como conseguir power-ups y no perder
 vidas. Un nuevo enfoque *profundo* presentado en Nature @deepAtari2015
 aprendió a jugar distintos juegos de Atari[^7].
 
-
-![Ejemplo de la actualización del límite entre las clases de animales
-felino y canino durante el entrenamiento de un perceptron. Adaptado de
-Elizabeth Goodspeed de Wikipedia Commons.<span
-data-label="fig:ejemploPerceptron"></span>](images/ejemploPerceptron.eps)
 
 Las redes neuronales artificiales
 ---------------------------------
@@ -385,63 +393,43 @@ continuó en la comunidad de la Inteligencia Artificial[^9].
 
 El objetivo del perceptron es crear un límite lineal entre dos clases de
 cosas con base en sus atributos expresadas numéricamente a partir de los
-ejemplos proporcionados en su aprendizaje. Por ejemplo, en la fig.
-
-[fig:ejemploPerceptron
-] se muestra el entrenamiento de un perceptron
+ejemplos proporcionados en su aprendizaje. Por ejemplo, en la fig. 3 se muestra el entrenamiento de un perceptron
 que distingue entre animales felinos y caninos usando como atributos el
 tamaño y el nivel de domesticación. En esta misma figura se puede
 apreciar como se actualiza el límite lineal conforme se le presentan más
 ejemplos al perceptron.
 
+<div>
+<table>
+  <tr>
+    <th> <img src="/assets/posts/pequeno/ejemploPerceptron.jpg"> </th>
+  </tr>
+  <tr>
+    <th style="text-align: center">Figura 3: Ejemplo de la actualización del límite entre las clases de animales felino y canino durante el entrenamiento de un perceptron. Adaptado de Elizabeth Goodspeed de Wikipedia Commons.</th>
+  </tr>
+</table>
+</div>
 
+<div>
+<table>
+<tbody>
+  <tr>
+    <td style="text-align: center"><img src="/assets/posts/pequeno/perceptron.jpg"></td>
+    <td style="text-align: center"><img src="/assets/posts/pequeno/mlp10x4x2.jpg"></td>
+  </tr>
+<tr>
+    <td style="text-align: center">(a)</td>
+    <td style="text-align: center">(b)</td>
+  </tr>
+</tbody>
+</table>
+<table>
+  <tr>
+    <th style="text-align: center">Figura 4: Diagrama de un perceptron y una red multicapa de perceptrones. (a) Un perceptron con <i>n</i> entradas. (b) Una red multicapa de perceptrones con 10 entradas, 4 unidades en la capa oculta y 2 unidades en la capa de salida. Nota: cada nodo gris contiene una unidad sumadora y una función de activación sigmoidal.</th>
+  </tr>
+</table>
+</div>
 
-[b
-]<span>0.45</span> ![Diagrama de un perceptron y una red multicapa
-de perceptrones. (a) Un perceptron con $n$ entradas. (b) Una red
-multicapa de perceptrones con 10 entradas, 4 unidades en la capa oculta
-y 2 unidades en la capa de salida. Nota: cada nodo gris contiene una
-unidad sumadora y una función de activación
-sigmoidal.](images/perceptron "fig:")
-
-
-[b
-]<span>0.45</span> ![Diagrama de un perceptron y una red multicapa
-de perceptrones. (a) Un perceptron con $n$ entradas. (b) Una red
-multicapa de perceptrones con 10 entradas, 4 unidades en la capa oculta
-y 2 unidades en la capa de salida. Nota: cada nodo gris contiene una
-unidad sumadora y una función de activación
-sigmoidal.](images/mlp10x4x2 "fig:")
-
-<span>0.53</span>![Comparación del desempeño entre un percetron y dos
-redes multicapa de perceptrones para un problema de clasificación
-no-lineal.<span
-data-label="fig:comparacionMLP"></span>](images/xorPerceptron "fig:")
-
-<span>0.4</span>![Comparación del desempeño entre un percetron y dos
-redes multicapa de perceptrones para un problema de clasificación
-no-lineal.<span
-data-label="fig:comparacionMLP"></span>](images/mlp21.eps "fig:")
-
-<span>0.53</span>![Comparación del desempeño entre un percetron y dos
-redes multicapa de perceptrones para un problema de clasificación
-no-lineal.<span
-data-label="fig:comparacionMLP"></span>](images/xorMLP2x2x1 "fig:")
-
-<span>0.4</span>![Comparación del desempeño entre un percetron y dos
-redes multicapa de perceptrones para un problema de clasificación
-no-lineal.<span
-data-label="fig:comparacionMLP"></span>](images/mlp221.eps "fig:")
-
-<span>0.53</span>![Comparación del desempeño entre un percetron y dos
-redes multicapa de perceptrones para un problema de clasificación
-no-lineal.<span
-data-label="fig:comparacionMLP"></span>](images/xorMLP2x3x1 "fig:")
-
-<span>0.4</span>![Comparación del desempeño entre un percetron y dos
-redes multicapa de perceptrones para un problema de clasificación
-no-lineal.<span
-data-label="fig:comparacionMLP"></span>](images/mlp231.eps "fig:")
 
 En términos matemáticos, el límite lineal $v$ que ayuda a separar las
 clases está definido como
@@ -555,6 +543,50 @@ los errores hacia atrás. Adicionalmente, la función de activación deja
 de ser binaria y se vuelve continua con forma de *S* (función
 sigmoidal).
 
+
+<div>
+<table>
+<tbody>
+  <tr>
+    <td width="55%" style="text-align: center"><img src="/assets/posts/pequeno/xorPerceptron.jpg"></td>
+    <td style="text-align: center"><img src="/assets/posts/pequeno/mlp21.jpg"></td>
+  </tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>(a) Perceptron</p>
+</div>
+
+<table>
+<tbody>
+  <tr>
+    <td width="55%" style="text-align: center"><img src="/assets/posts/pequeno/xorMLP2x2x1.jpg"></td>
+    <td style="text-align: center"><img src="/assets/posts/pequeno/mlp221.jpg"></td>
+  </tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>(b) Red multicapa de perceptrones de 2x2x1</p>
+</div>
+<table>
+<tbody>
+  <tr>
+    <td width="55%" style="text-align: center"><img src="/assets/posts/pequeno/xorMLP2x3x1.jpg"></td>
+    <td style="text-align: center"><img src="/assets/posts/pequeno/mlp2312.jpg"></td>
+  </tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>(c) Red multicapa de perceptrones de 2x3x1n</p>
+</div>
+<table>
+  <tr>
+    <th style="text-align: center">Figura 5: Comparación del desempeño entre un percetron y dos redes multicapa de perceptrones para un problema de clasificación
+no-lineal.</th>
+  </tr>
+</table>
+</div>
+
 Retomando el problema de clasificación no-lineal de la fig.
 
 [fig:comparacionMLP
@@ -595,10 +627,16 @@ aprendizaje para las redes profundas, otro factor determinante para su
 éxito fue el aumento del poder de procesamiento ofrecido por clústers de
 tarjetas gráficas[^12].
 
-
-![Ejemplo de representaciones jerárquicas del aprendizaje profundo desde
-un bajo hasta un alto nivel. Adaptado de @MAL-006.<span
-data-label="fig:deepArchitecture"></span>](images/deepArchitecture)
+<div>
+<table>
+  <tr>
+    <th> <img src="/assets/posts/pequeno/deepArchitecture.jpg"> </th>
+  </tr>
+  <tr>
+    <th style="text-align: center">Ejemplo de representaciones jerárquicas del aprendizaje profundo desde un bajo hasta un alto nivel. Adaptado de @MAL-006.</th>
+  </tr>
+</table>
+</div>
 
 El objetivo del aprendizaje profundo es aprender jerarquías de
 características, las cuales se basan en la jerarquía previa como se
@@ -688,14 +726,17 @@ de hacer cosas repetitivas y realizar tareas más creativas y complejas.
 Peligros y riesgos
 ==================
 
-<span>0.45</span> *…Yo no trabajo en no volver maligna a una IA por la
-misma razón que no me preocupa el problema de sobrepoblación en Marte.*
-
-*Andrew Ng*
-
-<span>0.4</span> ![image](images/robot_apocalypse_comparison.eps)
-
-<span>0.05</span>
+<div>
+<table>
+<thead>
+  <tr>
+    <th width="50%"><p><i>...Yo no trabajo en no volver maligna a una IA por la misma razón que no me preocupa el problema de sobrepoblación en Marte.</i></p>
+    <p><i>Andrew Ng</i></p></th>
+    <th> <img src="/assets/posts/pequeno/robot_apocalypse_comparison.png"> </th>
+  </tr>
+</thead>
+</table>
+</div>
 
 A finales del año pasado, la BBC reportaba sobre el temor de Stephen
 Hawking y Elon Musk acerca de la amenaza que representa la IA a la
