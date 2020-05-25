@@ -431,52 +431,28 @@ ejemplos al perceptron.
 </div>
 
 
-En términos matemáticos, el límite lineal $v$ que ayuda a separar las
+En términos matemáticos, el límite lineal $$v$$ que ayuda a separar las
 clases está definido como
-$$v=
-sum_{i}^{n}w_i
-cdot x_i=w_0
-cdot x_0+w_1
-cdot x_1+
-ldots+w_n
-cdot x_n$$
+$$v=\sum_{i}^{n}w_i\cdot x_i=w_0\cdot x_0+w_1\cdot x_1+\ldots+w_n\cdot x_n$$
 
-en el que $x_{0}, x_{1}, 
-ldots, x_{n}$ representan los atributos de las
-clases y $w_{0}, w_{1}, 
-ldots, w_{n}$ son los pesos sinápticos. En el
+en el que $$x_{0}, x_{1}, \ldots, x_{n}$$ representan los atributos de las
+clases y $$w_{0}, w_{1}, \ldots, w_{n}$$ son los pesos sinápticos. En el
 caso del perceptron que distingue entre animales caninos y felinos la
 ecuación describe a un plano y se define como
 
-$$v=w_0
-cdot 1+w_1
-cdot 
-text{domesticación}+w_2
-cdot 
-text{tamaño}$$
+$$v=w_0 \cdot 1+w_1 \cdot \text{domesticación}+w_2 \cdot \text{tamaño}$$
 
-La línea que se ilustra en la fig. 
-[fig:ejemploPerceptron
-] es cuando
-$v=0$, precisamente en el valor límite de decisión. Es decir, la línea
+La línea que se ilustra en la fig. [fig:ejemploPerceptron] es cuando $$v=0$$, precisamente en el valor límite de decisión. Es decir, la línea
 que está definida como:
 
-$$
-text{tamaño}=
-frac{w_1}{w_2}
-cdot 
-text{domesticación}+
-frac{w_0}{w_2}$$
+$$\text{tamaño}=\frac{w_1}{w_2}\cdot \text{domesticación}+\frac{w_0}{w_2}$$
 
-Adicionalmente, se debe aplicar una función de activación binaria al
-valor de $v$. Una función simple $
-phi$ para este ejemplo podría ser
-expresada bajo las siguientes dos reglas:
+Adicionalmente, se debe aplicar una función de activación binaria al valor de $$v$$. Una función simple $$phi$$ para este ejemplo podría ser expresada bajo las siguientes dos reglas:
 
--   Si el valor de $v$ es mayor que $0$, entonces $y=1$ y se trata de
+-   Si el valor de $$v$$ es mayor que $$0$$, entonces $$y=1$$ y se trata de
     un canino.
 
--   Si el valor de $v$ es menor o igual que $0$, entonces $y=0$ y se
+-   Si el valor de $$v$$ es menor o igual que $$0$$, entonces $$y=0$$ y se
     trata de un felino.
 
 Finalmente, el perceptron puede ser expresado con la siguiente ecuación
@@ -484,21 +460,10 @@ que se ilustra en la fig.
 [fig:perceptron
 ]:
 
-$$y=
-phi(v)=
-phi(v)=
-phi(
-sum_{i}^{n}w_i
-cdot x_i)=
-phi(w_0
-cdot x_0+w_1
-cdot x_1+
-ldots+w_n
-cdot x_n)$$
+$$y=\phi(v)=\phi(v)=\phi(\sum_{i}^{n}w_i\cdot x_i)=\phi(w_0\cdot x_0+w_1\cdot x_1+\ldots+w_n\cdot x_n)$$
 
 Ahora bien, el algoritmo del perceptron busca matemáticamente los
-valores de los pesos $w_{0}, w_{1}, 
-ldots,$ $w_{n}$ que separan a dos
+valores de los pesos $$w_{0}, w_{1}, \ldots,$$ $$w_{n}$$ que separan a dos
 clases de manera lineal. La debilidad del perceptron es justamente que
 sólo encuentra límites lineales entre clases, pero los límites entre
 clases de problemas comunes no son lineales. Por ejemplo, en la figura
@@ -508,8 +473,7 @@ clases de problemas comunes no son lineales. Por ejemplo, en la figura
 perceptron en un problema de clasificación no-lineal entre círculos y
 triángulos[^10]. Se puede apreciar que el mejor resultado del perceptron
 es colocar al límite de decisión justo a la mitad y tener un error del
-$50
-%$.
+$$50\%$$.
 
 Para solucionar este inconveniente se necesita combinar dos o más
 perceptrones y formar una red multicapa de perceptrones (RMP) que
@@ -592,8 +556,7 @@ Retomando el problema de clasificación no-lineal de la fig.
 [fig:comparacionMLP
 ], se puede apreciar cómo las RMP tienen un mejor
 desempeño que el perceptron por sí solo. Si bien la adición de dos
-unidades más sigue teniendo un error del $0.5
-%$, como se muestra en la
+unidades más sigue teniendo un error del $$0.5\%$$, como se muestra en la
 fig. 
 [fig:comparacionMLP:mlp221
 ]; la adición de tres unidades más no
@@ -653,9 +616,7 @@ aprendizaje profundo en 2009, cuando se rompió un record de precisión en
 el procesamiento de lenguaje natural @Jones14nature. Dos años después,
 compañías como Apple utilizaban el aprendizaje profundo para asistentes
 digitales activados por voz como Siri. Asimismo, Google lo implementó en
-sus sistema de reconocimiento de voz, logrando una reducción de $25
-%$
-de errores en palabras.
+sus sistema de reconocimiento de voz, logrando una reducción de $$25\%$$ de errores en palabras.
 
 Uno de los logros del aprendizaje profundo fue el haber ganado la
 competencia internacional ImageNet de 2012. En esta competencia se le
@@ -664,10 +625,8 @@ bicicletas, personas, ruedas etiquetados por personas para el
 entrenamiento de sistemas. La competencia la gana el equipo cuyo
 porcentaje de error sea el menor en un conjunto de validación
 desconocido. Antes de que el equipo de Geoffrey Hinton entrara a la
-competencia, el porcentaje de error era de alrededor del $25
-%$, su
-equipo lo redujo al $15
-%$. Hinton y su equipo fueron contratados por
+competencia, el porcentaje de error era de alrededor del $$25\%$$, su
+equipo lo redujo al $$15\%$$. Hinton y su equipo fueron contratados por
 Google y su sistema fue empleado en el software de búsqueda de fotos de
 Google+. El sistema de Hinton procesaba 60 millones de parámetros y
 consistía de 650 mil perceptrones con un total de 630 millones de
