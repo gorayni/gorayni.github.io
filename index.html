@@ -28,7 +28,7 @@ title: Home
       <a class="navbar-brand" href="#">Alejandro Cartas</a>
 
       <ul class="list-inline social-buttons" style="margin-top:15px;"> 
-      <a href="http://gorayni.blogspot.com/"><i class="fab fa-blogger-b" style="font-size:22px;color:white"></i></a>
+      <!-- <a href="http://gorayni.blogspot.com/"><i class="fab fa-blogger-b" style="font-size:22px;color:white"></i></a> -->
       <a href="https://scholar.google.com/citations?user=CRlmfJoAAAAJ&amp;hl=en" ><i class="fas fa-graduation-cap" style="font-size:22px;color:white"></i></a>
       <a href="https://github.com/gorayni"><i class="fa fa-github" style="font-size:22px;color:white"></i></a>            
       <a href="https://es.linkedin.com/in/acartas"><i class="fa fa-linkedin" style="font-size:22px;color:white"></i></a>
@@ -335,7 +335,7 @@ title: Home
       <ul>
         {% for post in site.posts %}
           <li>      
-            <p class="lead"><a href="{{ post.url }}">{{ post.date | date: "%-d %B %Y" }} - {{ post.title }}</a></p>
+            <p class="lead"><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} - {{ post.title }}</a></p>
           </li>
         {% endfor %}
       </ul>
