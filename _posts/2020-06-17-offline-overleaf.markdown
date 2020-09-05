@@ -203,7 +203,7 @@ This will create all the $$\LaTeX$$ auxiliary files and a PDF file containing yo
 
 ## Managing your $$\LaTeX$$ git repository using GitKraken
 
-GitKraken is a Git GUI client that makes the Git management easy. You can open your repository by pressing ``Linux: ctrl+o`` or ``Mac: cmd+o`` and pointing to the directory location of your $$\LaTeX$$ project.
+GitKraken is a Git GUI client that makes the Git management easy. In order to open a private repository, you need a professional account that you can freely get if you are a student [here](https://www.gitkraken.com/student-resources). You can open your repository by pressing ``Linux: ctrl+o`` or ``Mac: cmd+o`` and pointing to the directory location of your $$\LaTeX$$ project.
 
 The next image shows an Overleaf $$\LaTeX$$ project with several commits opened in GitKraken. You can see the automatically atomic commits done in Overleaf by another contributor at the bottom of the list.
 
