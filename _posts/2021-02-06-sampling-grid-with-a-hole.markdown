@@ -47,9 +47,11 @@ If we add the squared region and remove the rows and columns subscripts to our l
 
 where $$h$$ and $$w$$ are the height and width of the squared area. The second step to our solution is to sample the correct number of cells by defining $$n=\mathcal{U}\{0, r\cdot c-w\cdot h-1\}$$. In our example, we are no longer sampling 36 numbers but 30, so $$n=\mathcal{U}\{0, 29\}$$.
 
-Since the random number $$n$$ does not cover all the cell indices, is necessary to define the function $$s(n)$$ as the number of cells to slide. So we define $$f(n)=n+s(n)$$. Continuing with our example, if we randomly sample the number 15, this can be seen as:
+Since the random number $$n$$ does not cover all the cell indices, is necessary to define the function $$s(n)$$ as the number of cells to slide. So we define $$f(n)=n+s(n)$$. Continuing with our example, randomly sampling the number 15 can be seen as:
 
 <img border="0" style="display: block; margin-left: auto;margin-right: auto;" src="/assets/posts/grid_sampling/linear_indices.png" />
+
+Also notice from the above figure that the set of flat indices $$\{7, 8, 13, 14, 19, 20\}$$ are not part of function $$f(n)$$.
 
 The last step is to define $$s(n)$$, in order to mathematically define it, we need a closer look into it. Our observations about its behavior are summarized in the following figure:
 
